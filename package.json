@@ -1,0 +1,23 @@
+{
+  "name": "interaction-spaces",
+  "version": "0.0.1",
+  "description": "Testing out some ideas",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musnit/interaction-spaces.git"
+  },
+  "author": "Aidan Musnitzky <musnit@gmail.com> (https://github.com/musnit)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/musnit/interaction-spaces/issues"
+  },
+  "homepage": "https://github.com/musnit/interaction-spaces#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
