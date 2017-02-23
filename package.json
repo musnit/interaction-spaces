@@ -1,11 +1,13 @@
 {
   "name": "interaction-spaces",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Testing out some ideas",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "demo": "node ./dev-demo.js"
+    "demo": "node ./dev-demo.js",
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/musnit/interaction-spaces#readme",
   "devDependencies": {
+    "babel-cli": "^6.23.0",
     "babel-core": "^6.23.1",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.3.2",
