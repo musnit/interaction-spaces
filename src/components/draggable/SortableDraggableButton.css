@@ -1,0 +1,44 @@
+.sortable-draggable-container {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background-color: #f8f8f8;
+	margin: 10px auto;
+	width: 330px;
+	min-height: 66px;
+	position: relative;
+	display: block;
+	outline: none;
+}
+
+.sortable-draggable-container.isDragging {
+	background-color: transparent;
+	border: 1px dashed #ccc;
+}
+
+.sortable-draggable-container.isDragging .inner-container{
+	opacity: 0;
+}
+
+.sortable-draggable-container .name {
+	color: #535353;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.sortable-draggable-container .description {
+	color: #535353;
+	font-size: 13px;
+	font-weight: 100;
+}
+
+.sortable-draggable-container.hasPlus .name {
+	color: #ababab;
+	font-weight: 200;
+}
+
+.sortable-draggable-container .edit {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}

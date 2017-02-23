@@ -1,0 +1,123 @@
+.big-blocks-button {
+  max-width: 100%;
+}
+
+.big-blocks-button:focus {
+  outline: none !important;
+  opacity: 1 !important;
+}
+
+.big-blocks-button:active {
+  box-shadow: none !important;
+  opacity: 1 !important;
+}
+
+.big-blocks-selectable-selected {
+  color: #555555;
+}
+
+.big-blocks-selectable-selected img {
+  background: #f5f5f5;
+  border: solid 2px #245185 !important;
+}
+
+.big-blocks-selectable-selected div {
+  color: #555555 !important;
+}
+
+.big-blocks-selectable {
+  position: relative;
+}
+
+.big-blocks-levels-selector .Select {
+  width: 135px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 55px;
+  text-align: center;
+}
+
+.big-blocks-levels-selector .Select-value-label {
+  margin-right: 13px;
+}
+
+.big-blocks-levels-selector .Select-control {
+  border: solid 1px #9c9c9c;
+}
+
+.big-blocks-levels-selector .Select-clear-zone {
+  display: none;
+}
+
+.big-blocks-levels-selector {
+  height: 40px;
+}
+
+.big-blocks-selected-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  background: #245185;
+  border-radius: 13px;
+  top: -5px;
+  right: -5px;
+}
+
+.big-blocks-selectable-search {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.big-blocks-search-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+
+.big-blocks-selectable-subtext {
+  font-size: 13px;
+  white-space: normal;
+}
+
+.big-blocks-selector-selections.maximum-selected .big-blocks-button {
+  cursor: not-allowed;
+}
+
+.big-blocks-selectable-selected .big-blocks-button {
+  cursor: pointer !important;
+}
+
+.col_5 .big-blocks-selectable-labels.big-blocks-selectable-labels-noimage {
+  min-width: 140px;
+}
+
+.col_4 .big-blocks-selectable-labels.big-blocks-selectable-labels-noimage {
+  min-width: 160px;
+}
+
+.col_1 .big-blocks-selectable-labels.big-blocks-selectable-labels-noimage {
+  min-width: 280px;
+}
+
+.big-blocks-selectable-labels-noimage {
+  border: 2px solid rgb(230, 230, 230) !important;
+  padding: 10px;
+}
+
+.big-blocks-selectable-selected .big-blocks-selectable-labels-noimage {
+  background: #f5f5f5;
+  border: solid 2px #245185 !important;
+}
+
+.big-blocks-selector-layout-normal .big-blocks-selectable-icon-underlay {
+  display: none;
+}
+
+.big-blocks-selector-layout-normal .big-blocks-selectable-icon-underlay-cover {
+  display: none;
+}
