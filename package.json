@@ -1,12 +1,12 @@
 {
   "name": "interaction-spaces",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Testing out some ideas",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --reporter spec",
     "demo": "node ./dev-demo.js",
-    "build": "babel src --out-dir dist",
+    "build": "babel src --out-dir dist --copy-files",
     "prepublish": "npm run build"
   },
   "repository": {
